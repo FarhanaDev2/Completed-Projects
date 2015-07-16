@@ -1,0 +1,956 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.whole_main_body {
+    min-height: 100%;
+    position: relative;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.Landing1 {
+    background-image: url("../images/stock-photo1.jpg");
+}
+
+.Landing2 {
+    background-image: url("../images/promote.png");
+}
+
+.Inspection {
+    background-image: url("../images/plumber-1.jpg");
+}
+
+.Realtor {
+
+    background-image: url("../images/Retailer_image.jpg");
+}
+
+.FSBO {
+    background-image: url("../images/stock-photo-2.jpg");
+}
+
+.whole-form {
+    background-color: rgba(101, 183, 110, 1);
+    min-height: 100%;
+    position: relative;
+    color: #fff;
+}
+
+.title-info {
+    background-color: rgba(101, 183, 110, 1);
+    height: 30%;
+    text-align: center;
+    padding: 5px 0;
+
+}
+
+.title-fsbo {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 30%;
+    text-align: center;
+    padding: 5px 0;
+
+}
+
+.title-info_form {
+    background-color: #fff;
+    text-align: center;
+    border-top: 2px solid rgba(101, 183, 110, 1);
+    border-bottom: 2px solid rgba(101, 183, 110, 1);
+    padding: 5px 0;
+
+}
+
+.logo-display {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 50px;
+}
+
+.main-content-all {
+    padding: 10px;
+    padding-bottom: 65px;
+    width: 100%;
+    margin: 0;
+
+}
+
+.overlay_whole /*for all overlay*/
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+.overlay-Realtor {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.top-start-msg {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.top-sec-msg {
+    font-size: 24px;
+}
+
+.sec_msg-top {
+    padding-left: 10px;
+    padding-top: 50px;
+}
+
+.sec_msg-top2 {
+    padding-left: 55px;
+    padding-top: 50px;
+}
+
+.row.bullet-msg {
+    padding-top: 30px;
+}
+
+.row.bullet-msg>p {
+    font-size: 20px;
+}
+
+.sec_msg-form {
+    padding-left: 4px;
+    padding-top: 50px;
+}
+
+/* for the How it works button*/
+.landing1-button-div {
+    padding-left: 22px;
+}
+
+.works_link {
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-image: none;
+    cursor: pointer;
+    -webkit-user-select: none;
+    border: 1px solid transparent;
+    background-color: #428bca;
+    -webkit-user-select: none;
+    border-color: #357ebd;
+    color: #ffffff;
+    width: 255px;
+    height: 45px;
+}
+
+.works_link:hover,
+.works_link:focus {
+    background-color: #2d6ca2;
+    background-position: 0 -15px;
+    color: #ffffff;
+}
+
+.works_link:active,
+.works_link.active {
+    background-color: #2d6ca2;
+    border-color: #2b669a;
+    color: #ffffff;
+
+}
+
+.text_content {
+    font-size: 18px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    width: 70%;
+    float: left;
+    line-height: 1.33;
+    padding: 10px 16px;
+
+}
+
+.img_container {
+    padding: 6px;
+    width: 30%;
+    float: left;
+}
+
+.circleBase {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+}
+
+.circle_show {
+    width: 33px;
+    height: 30px;
+    background: #ffffff;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+
+.img_con {
+    width: 18px;
+    height: 23px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ffffff;
+
+}
+
+.next-arrow {
+    background-color: #ffffff;
+    width: 18px;
+    height: 18px
+}
+
+/* for the How it works button end */
+
+/* for landing page 2 plans button*/
+
+.landing2-button-div {
+    /*padding-left: 47px; */
+    padding-left: 6%;
+}
+
+.works_plan {
+    width: 260px;
+    height: 50px;
+}
+
+.img_container_plans {
+    padding: 7px;
+    width: 30%;
+    float: left;
+}
+
+/* for landing page 2 plans button end*/
+
+/* for green Plans and Pricing button ----start */
+.plans-green-button-div {
+
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 20%;
+    margin-bottom: 25px;
+
+}
+
+.plans_link {
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-image: none;
+    cursor: pointer;
+    -webkit-user-select: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+    background-color: #5cb85c;
+    -webkit-user-select: none;
+
+    border-color: #4cae4c;
+    color: #ffffff;
+
+    width: 255px;
+    height: 45px;
+}
+
+.plans-green-button-div-mobile {
+
+    padding-left: 4%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.plans_link_small {
+    width: 170px;
+    height: 32px;
+}
+
+.plans_link:hover,
+.plans_link:focus {
+    background-color: #419641;
+    background-position: 0 -15px;
+    color: #ffffff;
+}
+
+.plans_link:active,
+.plans_link.active {
+    background-color: #419641;
+    border-color: #3e8f3e;
+    color: #ffffff;
+
+}
+
+/* for green plans button end*/
+
+/* For Mobile*/
+.sec_msg_mobile {
+
+    padding-left: 4%;
+}
+
+.top-start-msg-mobile {
+    padding-top: 50px;
+}
+
+.top-sec-msg-div-mobile {
+
+    padding-top: 8px;
+}
+
+.top-sec-msg-mobile {
+    padding-left: 4%;
+    font-size: 16px;
+}
+
+.landing1-button-div-mobile {
+
+    padding-left: 4%;
+    padding-bottom: 10%;
+    padding-top: 5%
+}
+
+.works_link_mobile {
+    width: 170px;
+    height: 32px;
+}
+
+.text_content_mobile {
+    font-size: 12px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    width: 70%;
+    float: left;
+    line-height: 1.33;
+    padding: 8px 16px;
+
+}
+
+.img_container_mobile {
+    padding: 5px;
+    padding-bottom: 10px;
+    width: 20%;
+    height: 30px;
+    float: left;
+}
+
+.circle_show_mobile {
+    width: 22px;
+    height: 21px;
+    background: #ffffff;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 2px;
+
+}
+
+.img_con_mobile {
+    width: 15px;
+    height: 14px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+    padding-top: 0px;
+}
+
+.next-arrow_mobile {
+    background-color: #ffffff;
+    width: 12px;
+
+    height: 12px
+}
+
+.landing1-main-div-mobile {
+    padding-left: 25px;
+}
+
+.FSBO-main-div-mobile {
+    padding-left: 25px;
+}
+
+sec_msg_mobile-landing2 {
+    padding-left: 4%;
+    margin-top: 0px;
+}
+
+.Landing2-top-msg-div-mobile {
+    padding-top: 30px;
+}
+
+.Landing2-top-msg-mobile {
+    padding-left: 4%;
+}
+
+.landing2-button-div-mobile {
+    padding-left: 4%;
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+
+.row.mid-msg-mobile {
+    padding-left: 0%;
+}
+
+.row.mid-msg-mobile>p {
+    font-size: 16px;
+}
+
+.bullet-top-msg-div-mobile {
+    padding-top: 10px;
+}
+
+.bullet-msg-top-mobile {
+    padding-left: 4%;
+}
+
+.bullet-img-div-mobile {
+    padding-top: 5px;
+}
+
+.bullet-msg-mobile {
+    padding-left: 0;
+    padding-top: 7px;
+}
+
+.icon-wrapper-small {
+    width: 80%;
+    height: 30px;
+}
+
+/* For Mobile End*/
+
+.top-content-space {
+    margin-top: 5%;
+}
+
+.top-button-space {
+    margin-top: 3%;
+}
+
+.bottom-button-space {
+    margin-bottom: 5%;
+}
+
+.fsbo-bottom-button-space {
+    margin-bottom: 4%;
+}
+
+.main-bottom-button-space {
+    margin-bottom: 8%;
+    width: 100%;
+    height: 10%;
+}
+
+.bottom-button-space_form {
+    margin-bottom: 12%;
+}
+
+.sec_msg {
+
+    padding-left: 4px;
+
+}
+
+.main-start-msg {
+    font-size: 43px;
+    font-weight: bolder;
+}
+
+.main-start-msg-mobile {
+    color: #fff;
+    padding-left: 6%;
+
+}
+
+.main-start-info {
+    font-size: 20px;
+}
+
+.retailer-button-div {
+
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+
+}
+
+.retailer-button-div-small {
+    padding-left: 4%;
+    padding-bottom: 20%;
+    padding-top: 5%;
+}
+
+.sec_msg_inspection {
+    padding-left: 45px;
+}
+
+.row.inspection-msg {
+    padding-top: 30px;
+}
+
+.row.inspection-msg>p {
+    font-size: 20px;
+}
+
+.inspection-button-div {
+
+    padding-left: 6%;
+
+}
+
+.inspection-button-div_mobile {
+
+    padding-left: 4%;
+    padding-bottom: 10%;
+    padding-top: 5%;
+
+}
+
+#price_button {
+    background-color: rgba(101, 183, 110, 1);
+    border-color: rgba(101, 183, 110, 1);
+}
+
+/*for form pages, CSS used....start*/
+
+.form-group-user {
+    padding-left: 2%;
+}
+
+.row.no-gutter div[class*="col-"] {
+    /*background-color:#dd3333;*/
+}
+
+.row.no-gutter [class*='col-']:not(:first-child), .row.no-gutter [class*='col-']:not(:last-child) {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* only for column content visible */
+.col-lg-1>div {
+    background-color: #ddd;
+}
+
+.field_icon_user {
+    width: 62px;
+    height: 55px;
+}
+
+.name-large {
+    border-radius: 0;
+    height: 50px;
+    font-size: 14pt;
+    width: 420px;
+}
+
+.field_icon_user-small {
+    width: 30px;
+    height: 30px;
+}
+
+.field_icon_email {
+    width: 62px;
+    height: 55px;
+}
+
+.field_icon_email-small {
+    width: 30px;
+    height: 30px;
+}
+
+.type-mobile {
+    width: 100%;
+    height: 35px;
+}
+
+.email-button {
+    padding-left: 2%
+}
+
+.form-info-mobile {
+    padding-left: 8%;
+
+}
+
+.name-small {
+    border-radius: 0;
+    font-size: 10pt;
+}
+
+.email-small {
+    border-radius: 0;
+    font-size: 10pt;
+
+}
+
+.form-button-mobile {
+    float: right;
+    margin-right: 7px;
+
+}
+
+.email-large {
+    border-radius: 0;
+    height: 50px;
+    font-size: 14pt;
+    width: 420px;
+
+    padding-left: 10px;
+    margin-right: 30px;
+"
+}
+
+.email-place {
+    margin-right: 60px;
+}
+
+.fixed-div {
+    width: 835px;
+    padding-left: 5px;
+}
+
+.remind {
+    border-radius: 0px;
+    text-transform: capitalize;
+    width: 150px;
+    height: 50px;
+}
+
+.button-row {
+    margin-top: 15px;
+}
+
+.remind-small-mobile {
+    border-radius: 0px;
+    text-transform: capitalize;
+    float: right;
+    margin-right: 32px; /*for i-phone-5*/
+    /*margin-right: 17px; */
+}
+
+/*for form pages, CSS used....end*/
+
+/*  Footer CSS------*/
+.footer_div {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 65px; /* Height of the footer */
+    background-color: #777;
+
+}
+
+.landing-footer {
+    padding-top: 20px;
+}
+
+.footer-desktop {
+    padding-left: 10%;
+}
+
+.footer-copyright {
+    float: left;
+    font-size: 16px;
+    padding-left: 28px;
+
+    text-align: left;
+}
+
+.footer-contact {
+    float: left;
+    font-size: 16px;
+    padding-left: 0%;
+
+    text-align: left;
+
+}
+
+.footer-mobile {
+    padding-top: 0px;
+    text-align: center;
+}
+
+.mob-footer-row {
+
+    padding-bottom: 5px;
+    padding-top: 12px;
+}
+
+.Mobile.contact-mobile {
+    font-size: 12px;
+
+}
+
+.Mobile.copyright-mobile {
+    font-size: 12px;
+}
+
+/* Footer end*/
+
+@media only screen and
+(min-device-width: 64.1rem) and
+(min-device-width: 64em) and
+(min-width: 50em) {
+
+    .logo-display {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px;
+        height: 50px;
+    }
+
+    .top-start-msg {
+        font-size: 48px;
+        font-weight: bolder;
+    }
+
+    .sec_msg-top {
+        padding-left: 8px;
+
+    }
+
+    .sec_msg-top2 {
+        padding-left: 25px;
+
+    }
+
+    .works_link {
+        width: 190px;
+    }
+
+    .works_plan {
+        width: 205px;
+        height: 50px;
+    }
+
+    .text_content {
+        font-size: 16px;
+    }
+
+    .name-large {
+
+        width: 340px;
+    }
+
+    .email-large {
+
+        width: 340px;
+
+    }
+
+    .fixed-div {
+        width: 800px;
+        padding-left: 5px;
+    }
+
+    .email-place {
+        margin-right: 60px;
+    }
+
+    .plans_link {
+        width: 255px;
+        height: 45px;
+    }
+
+    .sec_msg {
+        padding-left: 6px;
+
+    }
+
+    /*Footer CSS-------------*/
+
+    .landing-footer {
+
+        padding-top: 20px;
+    }
+
+    .footer-desktop {
+        padding-left: 10%;
+    }
+
+    .footer-copyright {
+        float: left;
+        font-size: 14px;
+        padding-left: 50px;
+        text-align: left;
+
+    }
+
+    .footer-contact {
+        float: left;
+        font-size: 14px;
+        padding-left: 0%;
+        text-align: left;
+
+    }
+
+}
+
+/* --------  ( DESKTOP )  Media Query (up to 800px): END ------*/
+
+/* -------------------------- (Tablet Landscape) Media Query: START ------------------------------ */
+
+
+
+
+@media only screen and
+(max-width: 49.99em) and
+(min-width: 40em), only screen and
+(max-device-width: 1024px) and
+(min-device-width: 768px) {
+
+    .logo-display {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px;
+        height: 50px;
+    }
+
+    .top-start-msg {
+        font-size: 35px;
+        font-weight: bolder;
+    }
+
+    .sec_msg-top2 {
+        padding-left: 18px;
+
+    }
+
+    .works_link {
+        width: 170px;
+    }
+
+    .works_plan {
+        width: 180px;
+        height: 50px;
+    }
+
+    .text_content {
+        font-size: 14px;
+    }
+
+    .plans_link {
+        width: 235px;
+        height: 45px;
+    }
+
+    .name-large {
+
+        width: 280px;
+    }
+
+    .email-large {
+
+        width: 280px;
+
+        padding-left: 10px;
+        margin-right: 30px;
+    }
+
+    .fixed-div {
+        width: 765px;
+        padding-left: 5px;
+    }
+
+    .email-place {
+        margin-right: 25px;
+    }
+
+    .sec_msg {
+        padding-left: 1px;
+
+    }
+
+    .main-bottom-button-space {
+        margin-bottom: 5%;
+        width: 100%;
+        height: 10%;
+    }
+
+    .top-content-space {
+        margin-top: 2%;
+    }
+
+    /* Footer CSS-------------*/
+    .landing-footer {
+        padding-top: 20px;
+    }
+
+    .footer-desktop {
+        padding-left: 10%;
+    }
+
+    .footer-copyright {
+        float: left;
+        font-size: 12px;
+        padding-left: 18px;
+        text-align: left;
+
+    }
+
+    .footer-contact {
+        float: left;
+        font-size: 12px;
+        padding-left: 0%;
+        text-align: left;
+
+    }
+
+}
+
+/* -------------------------- (Tablet Landscape) Media Query: END ------------------------------ */
+
+/* -------------------------- (I-phone5) Media Query: START ------------------------------ */
+
+
+
+/* -------------------------- (I-phone5) Media Query: End ------------------------------ */
+@media only screen and (max-device-width: 360px) and (min-device-width: 320px)
+{
+    .remind-small-mobile {
+        margin-right: 27px;
+        /* margin-right: 17px; */
+    }
+
+    .top-content-space {
+        margin-top: 5%;
+    }
+}

@@ -1,0 +1,703 @@
+
+
+
+
+
+   /* For Tangobits Website*/
+
+
+body {
+    background-color: #333333;
+    color: #fff;
+}
+button {
+    text-transform: uppercase;
+}
+/* common styles */
+.section-msg {
+    padding: 0px 25px 15px 25px;
+    margin-top: 20px;
+}
+.section-img {
+    text-align: center;
+}
+.bullets {
+    padding: 0px 10px 0px 10px;
+}
+.bullet-icon {
+    width: 50px;
+}
+.bullets ul li{
+	font-size:18px;
+}
+.steps .bullets .row {
+    padding-bottom: 10px;
+}
+.gotoTop,
+.gotoQuick,
+.gotoAccess,
+.gotoFollowup {
+    text-align: center;
+    padding: 10px 0px;
+}
+.pro-signup,
+.user-signup {
+    display: none;
+}
+#pro-form {
+	margin-top:20px;
+}
+/* end common */
+
+/* PFA */
+#pfa.container-fluid {
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+    background: #b2b2b2;
+    position: relative;
+    height: 240px;
+}
+
+/* box slider updates */
+.slider-img {
+    /*width: 100%;*/
+}
+.starter-template .sign-up{
+    position: relative;
+}
+.starter-template .sign-up .after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #333;
+    opacity: 0.15;
+}
+
+
+.starter-template .works{
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+/* navbar section */
+.navbar {
+    position: absolute;
+    top: 0px;
+    padding: 10px 10px;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.2);
+    width: 100%;
+    z-index: 999;
+    border: none;
+    border-radius: 0;
+}
+.navbar > .container-fluid .navbar-brand{
+    margin-left: 0;
+}
+.navbar-brand{
+    height: inherit;
+    padding: 5px 0;
+}
+/*button.btn-lg {*/
+    /*display: none;*/
+/*}*/
+
+.logo{
+    padding-left: 0px;
+}
+.logo a {
+    background-image: url("/assets/images/Tangobits-logo.png");
+    background-repeat: no-repeat;
+    display: block;
+    width: 320px;
+    height: 50px;
+    font-size: 0;
+    line-height: 0;
+    outline: none;
+    overflow: hidden;
+    text-indent: -9999px;
+    background-size: contain;
+}
+.starter-template {
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+}
+
+.starter-template h1 {
+    font-size: 1.3em;
+    margin-top: 80px;
+    text-transform: uppercase;
+    text-shadow: none;
+}
+.starter-template .sign-up {
+    margin-top: 10px;
+    text-shadow: none;
+}
+
+/* clear button */
+.btn-clear {
+    color: #fff;
+    background-color: rgba(0,0,0,0);
+    border-color: #fff;
+}
+.btn-clear:hover,
+.btn-clear:focus,
+.btn-clear:active,
+.btn-clear.active,
+.open > .dropdown-toggle.btn-clear {
+    color: #fff;
+    background-color: rgba(0,0,0,0.5);
+    border-color: #fff;
+}
+.btn-clear:active,
+.btn-clear.active,
+.open > .dropdown-toggle.btn-default {
+    background-image: none;
+}
+
+/* green button #65b76e */
+.btn-green {
+    color: #fff;
+    background-color: rgba(101,183,110,1);
+    border-color: #fff;
+}
+.btn-green:hover,
+.btn-green:focus,
+.btn-green:active,
+.btn-green.active,
+.open > .dropdown-toggle.btn-green {
+    color: #fff;
+    background-color: rgba(0,0,0,0.5);
+    border-color: #fff;
+}
+.btn-green:active,
+.btn-green.active,
+.open > .dropdown-toggle.btn-default {
+    background-image: none;
+}
+
+/* Step by Step page */
+.section-msg>h2 {
+    font-size: 20px;
+}
+p {
+    font-size: 16px;
+}
+.steps {
+  background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    height: auto;
+    outline: none;
+    overflow: hidden;
+}
+.step-flow {
+    background-image: url("/assets/images/step1.jpg");
+}
+.step-quick {
+    background-image: url("/assets/images/step2.jpg");
+}
+.step-access {
+    background-image: url("/assets/images/step3.jpg");
+}
+.step-followup {
+    background-image: url("/assets/images/step4.jpg");
+}
+
+/* icon styles */
+.type-image-wrapper.type-image-svg,
+.type-icon-wrapper.type-image-svg {
+    background: center center no-repeat;
+    background-size: contain;
+}
+.type-icon-wrapper {
+    width: 100%;
+    height: 50px;
+}
+.type-image-wrapper {
+    width: 100%;
+    height: 500px;
+}
+
+/* footer styles */
+.footer-cta div,
+.contact {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.copyright {
+    text-align: center;
+    padding: 0px 25px 20px 0px;
+}
+.copyright p {
+    font-size: 8px;
+    display: inline;
+}
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+
+/* --------  ( DESKTOP )  Media Query (up to 800px): START ------*/
+@media only screen and
+(min-device-width: 64.1rem) and
+(min-device-width: 64em) and
+(min-width: 50em){
+
+    .Mobile{
+        display: none;
+    }
+
+    /* Nav bar */
+    .navbar {
+        padding: 10px 10px;
+    }
+    .logo-txt{
+        font-size: 3em;
+        padding-left: 20px;
+    }
+    .logo a {
+        width: 320px;
+        height: 50px;
+    }
+
+    /* Banner */
+    #pfa.container-fluid {
+        height: 640px;
+    }
+    .slider-img{
+        min-height: 640px;
+    }
+
+    /* Starter Template : START */
+    .starter-template{
+        height: 640px;
+    }
+    .starter-template .head-text{
+        position: absolute;
+        bottom: 50%;
+    }
+    .starter-template h1 {
+        font-size: 48px;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: bolder;
+    }
+    .starter-template .row.sign-up {
+        margin-top: 80px;
+        height: 560px;
+    }
+    .starter-template .works{
+        bottom: 20px;
+    }
+    /* Starter Template : END */
+
+    /* Inner Steps : START */
+    .steps {
+        height: 640px;
+        position: relative;
+    }
+    .steps>.row:nth-of-type(3){
+        position: absolute;
+        bottom: 0px;
+        right: 50%;
+    }
+    .bullets {
+        padding-left: 0px;
+    }
+    .section-msg {
+        padding-left: 0px;
+    }
+    .section-msg>h2 {
+        font-size: 36px;
+    }
+    .section-img img {
+        max-height: 600px;
+        margin: 0 auto;
+    }
+    p {
+        font-size: 20px;
+    }
+    /* Inner Steps : END */
+
+    /*footer styles overrides*/
+    .btn-block + .btn-block {
+        margin-top: 0px;
+    }
+    .btn-block {
+        display: inline;
+        width: auto;
+    }
+    .footer-cta .cta-buttons {
+        text-align: right;
+        padding-bottom: 10px;
+        padding-right: 0;
+    }
+    p.contact {
+        font-size: 16px;
+        text-align: left;
+    }
+    .footer-cta .copyright {
+        text-align: right;
+        padding: 0px;
+
+    }
+    .copyright p {
+        font-size: 12px;
+        display: inline;
+    }
+    .footer-cta .gotoTop {
+        text-align: center;
+    }
+}
+/* --------  ( DESKTOP )  Media Query (up to 800px): END ------*/
+
+/* -------------------------- (Tablet Landscape) Media Query: START ------------------------------ */
+@media only screen and
+(max-width: 49.99em) and
+(min-width: 40em), only screen and
+(max-device-width: 1024px) and
+(min-device-width: 768px) and
+(orientation: landscape) {
+
+    .Mobile{
+        display: none;
+    }
+
+    /* Nav bar */
+    .navbar-right{
+        float: right!important;
+    }
+    .navbar {
+        padding: 10px 10px;
+    }
+    .logo-txt{
+        font-size: 3em;
+        padding-left: 20px;
+    }
+    .logo a {
+        width: 320px;
+        height: 50px;
+    }
+
+    /* Banner */
+    #pfa.container-fluid {
+        height: 450px;
+    }
+    .slider-img{
+        min-height: 450px;
+    }
+
+    /* Starter Template : START */
+    .starter-template{
+        height: 450px;
+    }
+    .starter-template .head-text{
+        position: absolute;
+        bottom: 50%;
+    }
+    .starter-template h1 {
+        font-size: 32px;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: bolder;
+    }
+    .starter-template .row.sign-up {
+        margin-top: 80px;
+        height: 370px;
+    }
+    .starter-template .works{
+        bottom: 20px;
+    }
+    /* Starter Template : END */
+
+    /* Inner steps : START */
+    .steps {
+        height: 650px;
+        position: relative;
+    }
+    .steps>.row:nth-of-type(3){
+        position: absolute;
+        bottom: 0px;
+        right: 50%;
+    }
+    .bullets {
+        padding-left: 0px;
+    }
+    .section-msg {
+        padding-left: 0px;
+    }
+    .section-msg>h2 {
+        font-size: 30px;
+    }
+    .section-img img {
+        max-height: 500px;
+        margin: 0 auto;
+    }
+    p {
+        font-size: 18px;
+    }
+    /* Inner steps : END */
+
+    /*footer styles overrides*/
+    .btn-block + .btn-block {
+        margin-top: 0px;
+    }
+    .btn-block {
+        display: inline;
+        width: auto;
+    }
+    .footer-cta .cta-buttons {
+        text-align: right;
+        padding-bottom: 10px;
+        padding-right: 0;
+    }
+    p.contact {
+        font-size: 14px;
+        text-align: left;
+    }
+    .footer-cta .copyright {
+        text-align: right;
+        padding: 0px;
+    }
+    .copyright p {
+        font-size: 11px;
+        display: inline;
+    }
+    .footer-cta .gotoTop {
+        text-align: center;
+    }
+
+}
+/* -------------------------- (Tablet Landscape) Media Query: END ------------------------------ */
+
+/* -------------------------- (Tablet Portrait) Media Query: START ------------------------------ */
+@media only screen and
+(max-width: 49.99em) and
+(min-width: 40em), only screen and
+(max-device-width: 1024px) and
+(min-device-width: 768px) and
+(orientation: portrait) {
+
+    .Mobile{
+        display: none;
+    }
+
+    /* Nav bar */
+    .navbar-right{
+        float: right!important;
+    }
+    .navbar {
+        padding: 10px 10px;
+    }
+    .logo-txt{
+        font-size: 3em;
+        padding-left: 20px;
+    }
+    .logo a {
+        width: 320px;
+        height: 50px;
+    }
+
+    /* Banner */
+    #pfa.container-fluid {
+        height: 450px;
+    }
+    .slider-img{
+        min-height: 450px;
+    }
+
+    /* Starter Template : START */
+    .starter-template{
+        height: 450px;
+    }
+    .starter-template .head-text{
+        position: absolute;
+        bottom: 50%;
+    }
+    .starter-template h1 {
+        font-size: 32px;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: bolder;
+    }
+    .starter-template .row.sign-up {
+        margin-top: 80px;
+        height: 370px;
+    }
+    .starter-template .works{
+        bottom: 20px;
+    }
+    /* Starter Template : END */
+
+    /* Inner steps : START */
+    .steps {
+        height: 650px;
+        position: relative;
+    }
+    .steps>.row:nth-of-type(3){
+        position: absolute;
+        bottom: 0px;
+        right: 50%;
+    }
+    .bullets {
+        padding-left: 0px;
+    }
+    .section-msg {
+        padding-left: 0px;
+    }
+    .section-msg>h2 {
+        font-size: 30px;
+    }
+    .section-img img {
+        max-height: 500px;
+        margin: 0 auto;
+    }
+    p {
+        font-size: 18px;
+    }
+    /* Inner steps : END */
+
+    /*footer styles overrides*/
+    .btn-block + .btn-block {
+        margin-top: 0px;
+    }
+    .btn-block {
+        display: inline;
+        width: auto;
+    }
+    .footer-cta .cta-buttons {
+        text-align: right;
+        padding-bottom: 10px;
+        padding-right: 0;
+    }
+    p.contact {
+        font-size: 14px;
+        text-align: left;
+    }
+    .footer-cta .copyright {
+        text-align: right;
+        padding: 0px;
+    }
+    .copyright p {
+        font-size: 11px;
+        display: inline;
+    }
+    .footer-cta .gotoTop {
+        text-align: center;
+    }
+}
+/* -------------------------- (Tablet Landscape) Media Query: END ------------------------------ */
+
+/* ----------- All Small devices style: START ------------ */
+@media only screen and
+(max-width: 39.99em){
+
+    .Desktop{
+        display: none;
+    }
+
+    /* Nav bar */
+    .navbar {
+        padding: 5px 5px;
+    }
+    .logo-txt{
+        font-size: 3em;
+        padding-left: 20px;
+    }
+    .logo a {
+        width: 150px;
+        height: 30px;
+    }
+
+    /* Banner */
+    #pfa.container-fluid {
+        height: 240px;
+    }
+    .slider-img{
+        min-height: 240px;
+    }
+
+    /* Starter Template : START */
+    .starter-template{
+        height: 240px;
+    }
+    .starter-template .head-text{
+        position: absolute;
+        bottom: 50%;
+    }
+    .starter-template h1 {
+        font-size: 24px;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: bolder;
+    }
+    .starter-template .row.sign-up {
+        margin-top: 50px;
+        height: 190px;
+    }
+    .starter-template .works{
+        bottom: 10px;
+    }
+    /* Starter Template : END */
+
+    /* Inner steps :START */
+    .steps {
+        height: 740px;
+        position: relative;
+    }
+    .steps>.row:nth-of-type(3){
+        position: absolute;
+        bottom: 0px;
+        right: 50%;
+    }
+    .bullets {
+        padding-left: 0px;
+    }
+    .section-msg {
+        padding-left: 0px;
+    }
+    .section-msg>h2 {
+        font-size: 24px;
+    }
+    .section-img img {
+        max-height: 250px;
+        margin: 0 auto;
+    }
+    p {
+        font-size: 14px;
+    }
+    /* Inner steps :END */
+
+    /* Footer */
+    .footer-cta .cta-buttons {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    p.contact {
+        font-size: 14px;
+        text-align: left;
+    }
+    .footer-cta .copyright {
+        text-align: right;
+    }
+    .copyright p {
+        font-size: 11px;
+        display: inline;
+    }
+    .footer-cta .gotoTop {
+        text-align: center;
+    }
+}
+
+/* ----------- All Small devices style: END ------------ */
+
